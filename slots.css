@@ -1,0 +1,34 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.slot-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.slot {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #6cb2eb; /* Default color for available slots */
+    cursor: pointer;
+}
+
+.slot.booked {
+    background-color: #ff6b6b; /* Color for booked slots */
+}
+
+.slot.selected {
+    background-color: #4a90e2; /* Color for selected slots */
+}
+
+.book-button {
+    display: none; /* Initially hide book button */
+}
+

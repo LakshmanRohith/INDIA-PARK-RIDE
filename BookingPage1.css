@@ -1,0 +1,100 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://www.shutterstock.com/image-vector/online-ordering-taxi-car-rent-600nw-1490648672.jpg");
+    background-size: calc(1200px);
+    
+    
+    font-weight: 300;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #33333351;
+    margin-top: 50px;
+    border-radius: 10px;
+  }
+  
+  h2 {
+    margin-top: 20px;
+  }
+  
+  /* Radio button styles */
+  
+  input[type="radio"] + label {
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  input[type="radio"] + label img {
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    transition: border-color 0.3s ease;
+  }
+  
+  input[type="radio"]:checked + label img {
+    border-color: #333;
+  }
+  
+  /* Select box styles */
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Button styles */
+  button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #2c1c4e;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Dropdown animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .fadeIn {
+    animation-name: fadeIn;
+    animation-duration: 0.5s;
+  }
+  
+  /* Custom animation for select elements */
+  .select-animation {
+    display: none;
+  }
+  
+  .select-animation.fadeIn {
+    display: block;
+  }

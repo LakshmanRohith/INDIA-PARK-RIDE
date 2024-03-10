@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vehicle Parking System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Login</h2>
+        <div id="login-form">
+            
+          <b>  <label for="username">Username</label>
+            <input type="text" id="username" placeholder="Username">
+            <label for="password">Password</label> <input type="password" id="password" placeholder="Password">
+           <a href="home.html"> <button type="submit">Login</button></a>
+            <p>Don't have an account? <a href="#" onclick="showRegister()">Register</a></p>
+        </div>
+    </div>
+
+        <div id="register-form">
+            <h2>Register</h2>
+            <input type="text" id="regUsername" placeholder="Username">
+            <input type="password" id="regPassword" placeholder="Password">
+            <button type="submit">Register</button>
+            <p>Already have an account? <a href="#" onclick="showLogin()">Login</a></p>
+        </div>
+        
+    </div>
+   
+
+
+        <div id="content"></div>
+    </div>
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

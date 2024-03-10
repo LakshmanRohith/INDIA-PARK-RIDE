@@ -1,0 +1,189 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    background-image: url("https://www.shutterstock.com/image-vector/online-ordering-taxi-car-rent-600nw-1490648672.jpg");
+    background-size: calc(1200px);
+    
+    
+    font-weight: 300;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
+    text-align: center;
+    
+    
+
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #10101046;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.container:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+#register-form {
+    display: none;
+}
+
+#navigation-bar {
+    display: none;
+    margin-bottom: 20px;
+}
+
+#navigation-bar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#navigation-bar ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+#navigation-bar ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#navigation-bar ul li a:hover {
+    background-color: #ddd;
+}
+
+#content {
+    margin-top: 20px;
+}
+
+input[type="text"],
+input[type="password"],
+button {
+    display: block;
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    transition: border-color 0.3s ease;
+}
+
+form{
+    width: 90%;
+    padding: 30px;
+    text-align: left;
+
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    border-color: #6cb2eb;
+}
+
+button {
+    background-color: #6cb2eb;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    
+}
+
+button:hover {
+    background-color: #4a90e2;
+}
+
+.fadeIn {
+    animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+h1, h2 {
+    align-items: center;
+    text-align: center;
+   
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.profile, .booking-history {
+    margin-bottom: 30px;
+}
+
+.profile-pic {
+    text-align: center;
+}
+
+.circular {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.profile form {
+    margin-top: 20px;
+}
+
+.profile form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.profile form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.profile form input[type="password"], .profile form input[type="text"] {
+    width: calc(100% - 20px);
+}
+
+.profile form input[type="password"]::placeholder, .profile form input[type="text"]::placeholder {
+    font-style: italic;
+}
+
+.profile form a {
+    display: block;
+    text-align: right;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.profile form a:hover {
+    text-decoration: underline;
+}
+
+.booking-history .transaction {
+    background-color: #ffffff6f;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.booking-history .transaction div {
+    margin-bottom: 10px;
+}
+
+.booking-history .transaction div span {
+    display: block;
+    color: #000;
+}

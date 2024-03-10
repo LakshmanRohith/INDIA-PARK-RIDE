@@ -1,0 +1,29 @@
+.body{
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    background-image: url("https://www.shutterstock.com/image-vector/online-ordering-taxi-car-rent-600nw-1490648672.jpg");
+    background-size: calc(1200px);
+    
+    
+    font-weight: 300;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
+    text-align: center;
+    
+    
+
+
+}.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(50, 45, 45, 0.159);
+    width: 70%;
+    border-radius: 10px;
+    margin-top: 100px;
+    
+}
+
+#booking-details {
+    margin-bottom: 20px;
+}

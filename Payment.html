@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="payment.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Payment Options</h2>
+
+        <p>Total Amount:  500 <span id="totalAmount"></span></p>
+        
+        <div class="payment-option">
+            <input type="radio" id="creditCard" name="paymentMethod" value="creditCard">
+            <label for="creditCard">Credit Card</label>
+        </div>
+
+        <div class="payment-option">
+            <input type="radio" id="paypal" name="paymentMethod" value="paypal">
+            <label for="paypal">PayPal</label>
+        </div>
+
+        <div class="payment-option">
+            <input type="radio" id="googlePay" name="paymentMethod" value="googlePay">
+            <label for="googlePay">Google Pay</label>
+        </div>
+
+        <div class="payment-option">
+            <input type="radio" id="bankTransfer" name="paymentMethod" value="bankTransfer">
+            <label for="bankTransfer">Bank Transfer</label>
+        </div>
+
+        <a href="BookingDetails.html"><button>Proceed to Payment</button></a>
+    </div>
+
+    <script src="payment.js"></script>
+</body>
+</html>

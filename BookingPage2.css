@@ -1,0 +1,59 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url("https://www.shutterstock.com/image-vector/online-ordering-taxi-car-rent-600nw-1490648672.jpg");
+    background-size: calc(1200px);
+    
+    
+    font-weight: 300;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #181717a9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #f4f4f4;
+      }
+  
+  h1 {
+    margin-top: 20px;
+    font-size: 24px;
+  }
+  
+  .time-slot, .cost {
+    margin-bottom: 20px;
+  }
+  
+  .time-slot label, .cost label {
+    margin-right: 10px;
+  }
+  
+  input[type="time"], input[type="number"] {
+    padding: 8px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
